@@ -1,0 +1,16 @@
+ls
+cd repogit/
+cd TP_AySO/
+ls
+sudo vim saludar.txt 
+sudo nano saludar.txt 
+rm saludar.txt 
+ls
+echo "Alumno: Nestor Rodrigo Muñoz Nuñez" > README.md 
+echo -e "Alumno: Nestor Rodrigo Muñoz Nuñez\nDivisión: 125\nTurno: Tarde" > README.md 
+cat README.md 
+git add .
+git commit -m "ADD: Alumno,División y Turno a README.md"
+git push
+cat README.md 
+history -a
