@@ -1,0 +1,2 @@
+
+El comando utilizado es tcpdump y para capturar el comando se utiliza sudo tcpdump -i <interfaz> 
